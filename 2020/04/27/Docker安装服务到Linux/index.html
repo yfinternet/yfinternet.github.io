@@ -5,20 +5,19 @@
   
 
   
-  <title>hexo使用方法 | 个人博客</title>
+  <title>Docker安装服务到Linux | 个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hexo操作命令：1.创建新文章： 1hexo new &amp;quot;文章标题&amp;quot;  #简写 hexo n 2.生成静态文件 1hexo generate  #简写 hexo g 3.预览博客 1hexo server  #简写 hexo s 4.部署博客 1hexo deploy  #简写 hexo d 5.删除文章： 1直接在source/_posts目录删除对应文件">
-<meta name="keywords" content="hexo">
+  <meta name="description" content="Docker安装服务到Linux一、Docker安装nginx及配置部署1. 二、Docker安装mysql及配置三、Docker安装redis及配置四、Docker安装java及部署程序">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo使用方法">
-<meta property="og:url" content="http://yoursite.com/2019/07/25/hexo使用方法/index.html">
+<meta property="og:title" content="Docker安装服务到Linux">
+<meta property="og:url" content="http://yoursite.com/2020/04/27/Docker安装服务到Linux/index.html">
 <meta property="og:site_name" content="个人博客">
-<meta property="og:description" content="hexo操作命令：1.创建新文章： 1hexo new &amp;quot;文章标题&amp;quot;  #简写 hexo n 2.生成静态文件 1hexo generate  #简写 hexo g 3.预览博客 1hexo server  #简写 hexo s 4.部署博客 1hexo deploy  #简写 hexo d 5.删除文章： 1直接在source/_posts目录删除对应文件">
+<meta property="og:description" content="Docker安装服务到Linux一、Docker安装nginx及配置部署1. 二、Docker安装mysql及配置三、Docker安装redis及配置四、Docker安装java及部署程序">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-25T13:51:18.700Z">
+<meta property="og:updated_time" content="2020-04-27T13:09:27.464Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo使用方法">
-<meta name="twitter:description" content="hexo操作命令：1.创建新文章： 1hexo new &amp;quot;文章标题&amp;quot;  #简写 hexo n 2.生成静态文件 1hexo generate  #简写 hexo g 3.预览博客 1hexo server  #简写 hexo s 4.部署博客 1hexo deploy  #简写 hexo d 5.删除文章： 1直接在source/_posts目录删除对应文件">
+<meta name="twitter:title" content="Docker安装服务到Linux">
+<meta name="twitter:description" content="Docker安装服务到Linux一、Docker安装nginx及配置部署1. 二、Docker安装mysql及配置三、Docker安装redis及配置四、Docker安装java及部署程序">
   
     <link rel="alternate" href="/atom.xml" title="个人博客" type="application/atom+xml">
   
@@ -65,10 +64,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hexo使用方法" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Docker安装服务到Linux" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/07/25/hexo使用方法/" class="article-date">
-  <time datetime="2019-07-25T12:53:32.000Z" itemprop="datePublished">2019-07-25</time>
+    <a href="/2020/04/27/Docker安装服务到Linux/" class="article-date">
+  <time datetime="2020-04-27T12:58:38.000Z" itemprop="datePublished">2020-04-27</time>
 </a>
     
   </div>
@@ -79,7 +78,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      hexo使用方法
+      Docker安装服务到Linux
     </h1>
   
 
@@ -87,49 +86,25 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="hexo操作命令："><a href="#hexo操作命令：" class="headerlink" title="hexo操作命令："></a>hexo操作命令：</h3><p><strong>1.创建新文章：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;文章标题&quot;</span><br></pre></td></tr></table></figure>
-
-<p>#简写 hexo n</p>
-<p><strong>2.生成静态文件</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>#简写 hexo g</p>
-<p><strong>3.预览博客</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-
-<p>#简写 hexo s</p>
-<p><strong>4.部署博客</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>#简写 hexo d</p>
-<p><strong>5.删除文章：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">直接在source/_posts目录删除对应文件</span><br></pre></td></tr></table></figure>
-
-
+        <h3 id="Docker安装服务到Linux"><a href="#Docker安装服务到Linux" class="headerlink" title="Docker安装服务到Linux"></a>Docker安装服务到Linux</h3><h4 id="一、Docker安装nginx及配置部署"><a href="#一、Docker安装nginx及配置部署" class="headerlink" title="一、Docker安装nginx及配置部署"></a>一、Docker安装nginx及配置部署</h4><p>1.</p>
+<h4 id="二、Docker安装mysql及配置"><a href="#二、Docker安装mysql及配置" class="headerlink" title="二、Docker安装mysql及配置"></a>二、Docker安装mysql及配置</h4><h4 id="三、Docker安装redis及配置"><a href="#三、Docker安装redis及配置" class="headerlink" title="三、Docker安装redis及配置"></a>三、Docker安装redis及配置</h4><h4 id="四、Docker安装java及部署程序"><a href="#四、Docker安装java及部署程序" class="headerlink" title="四、Docker安装java及部署程序"></a>四、Docker安装java及部署程序</h4>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/07/25/hexo使用方法/" data-id="ckaru0uvr00047ov5ki5jfpp7" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/27/Docker安装服务到Linux/" data-id="ckaru0uvn00017ov5s8aez71l" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2019/07/25/python第三方库/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          python第三方库
-        
-      </div>
-    </a>
   
+    <a href="/2019/11/07/Linux服务部署操作/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Linux服务部署操作</div>
+    </a>
   
 </nav>
 
